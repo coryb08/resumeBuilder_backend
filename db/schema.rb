@@ -9,7 +9,6 @@
 # you'll amass, the slower it'll run and the greater likelihood for issues).
 #
 # It's strongly recommended that you check this file into your version control system.
-RAILS_ENV=test rake db:drop db:create db:schema:load
 ActiveRecord::Schema.define(version: 20180117192524) do
 
   # These are extensions that must be enabled in order to support this database
