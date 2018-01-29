@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-template1 = Template.create(name: "Black&White")
+template1 = Template.create(name: "Black & White")
 template2 = Template.create(name: "Colorful")
 
 resume1 = Resume.create(name: "Sample Resume", first_name: "Cory", last_name: "Baker", location: "Brooklyn, NY", phone: "501-555-4586", email: "coryb08@yahoo.com", website: "www.corydbaker.com", skills: "Ruby on Rails, JavaScript, React, HTML, CSS", summary: "Built internal and external pages and applications using JS, PHP, CSS, HTML and API for various platforms", template_id: 1)
